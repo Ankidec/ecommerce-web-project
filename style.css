@@ -196,10 +196,10 @@ span{
     justify-content: space-evenly;
 
 }
-u{
+ul{
     margin-top: 20px;
 }
-u a{
+ul a{
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
@@ -207,9 +207,36 @@ u a{
 }
 .foot-panel3{
     background-color: #222f3d;
-    color: white;
     border-top: 0.5px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 70px;
 }
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+
+
+
